@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    width: 1120px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    color: #101010;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+.header__banner{
+    position: relative;
+}
+.header_banner_apple_icon{
+    position: absolute;
+    right: 100px;
+    bottom: 5px;
+
+}
+.heder__banner_img{
+    width: 100%;
+}
