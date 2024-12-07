@@ -8,6 +8,7 @@
 }
 body{
     font-family: "Montserrat", sans-serif;
+    background: #eaeaea;
 }
 .container{
     width: 1120px;
@@ -36,3 +37,30 @@ nav{
 .heder__banner_img{
     width: 100%;
 }
+
+.card{
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    background: white;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px 1px gray;
+    transition: .5s;
+}
+.title{
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+section{
+    margin-top: 88px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+     
